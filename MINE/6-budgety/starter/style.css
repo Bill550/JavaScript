@@ -41,7 +41,7 @@ body {
 
 .budget {
     position: absolute;
-    width: 350px;
+    width: 380px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -49,10 +49,10 @@ body {
 }
 
 .budget__title {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     margin-bottom: 10px;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 .budget__value {
@@ -72,16 +72,19 @@ body {
 .budget__income {
     margin-bottom: 10px;
     background-color: #28B9B5;
+    border-radius: 10px;
 }
 
 .budget__expenses {
     background-color: #FF5049;
+    border-radius: 10px;
 }
 
 .budget__income--text,
 .budget__expenses--text {
     float: left;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: bold;
     color: #444;
     margin-top: 2px;
 }
@@ -134,6 +137,7 @@ body {
     margin-right: 10px;
     font-weight: 300;
     transition: border 0.3s;
+    border-radius: 5px;
 }
 
 .add__description,
